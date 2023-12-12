@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Lato&family=Poppins&display=swap');
+* {
+font-family: 'DM Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+}
+.nav-item {
+    padding: 5px 10px;  
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-item dropdown {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn {
+    background-color: #2e3032;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+#navbartop {
+    background-color: black;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+#about {
+    background-color: #f5f7fa ;
+}
+
+#about-img {
+    width: 100%;
+}
+.image-about {
+    object-fit: contain;
+    width: 100%;
+}
+
+.luxurious {
+    max-width: 100%;
+}
+.content-image-1 {
+    object-fit: contain;
+    width: 100%;
+}
+#overflow-content {
+    margin: 50px;
+}
+#overview-section {
+    background-color: #f1f1f1;
+}
+
+#overflow-container {
+    margin: 80px;
+}
+.img-area {
+    width: 100%;
+}
+
+.Box {
+    border: 1px solid #fff;
+    width: 250px;
+    height: 250px;
+}
+#about-container {
+    padding: 50px;
+    margin: 40px, 0;
+}
+
+#overview-container {
+    padding: 50px;
+}
+
+
+/**responsive css**/
+
+@media only screen and (max-width: 767px) {
+    #about-text {
+        justify-content: center;
+        text-align: center;
+    }
+    #about-text p{
+        font-size: 14px;
+    }
+    #about-text h3, h2{
+        font-size: 18px;
+    }
+    #about-container {
+        padding: 20px;
+        margin: 10px, 0;
+    }
+    #overview {
+        padding: 0;
+        margin: 0;
+    }
+    #overview-container {
+        padding: 10px;
+    }
+    .content-image-1 {
+        margin-bottom: 20px;
+    }
+        
+    .carousel-inner {
+        height: 450px;
+    }
+    .w-100 {
+        object-fit: cover;
+    }
+    #hero {
+        height: 450px;
+    }
+
+}
